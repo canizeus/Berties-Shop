@@ -1,0 +1,24 @@
+{
+  "name": "berties-shop",
+  "version": "1.0.0",
+  "description": "A full stack MERN ecommerce website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canizeus/Berties-Shop.git"
+  },
+  "author": "Erick Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canizeus/Berties-Shop/issues"
+  },
+  "homepage": "https://github.com/canizeus/Berties-Shop#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.16"
+  }
+}
