@@ -3,12 +3,10 @@ const connectToDatabase = require('./config/database');
 
 const dotenv = require('dotenv');
 
-
-//Settup config file
+//Set-up configuration file.
 dotenv.config({ path: 'backend/config/config.env' });
 
-
-//Connect to the MongoDB server.
+//Connect to the Mongo Database.
 connectToDatabase();
 
 app.listen(process.env.port, () => {
